@@ -1,0 +1,7 @@
+read_verilog -sv example/counter.sv
+read_liberty minecraft.lib
+synth
+dff2dffe
+abc -liberty minecraft.lib
+stat
+show counter
