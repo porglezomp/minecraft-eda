@@ -1,5 +1,5 @@
 read_verilog -sv example/counter.sv
-read_liberty minecraft.lib
+read_liberty -lib minecraft.lib
 synth
 dff2dffe
 abc -liberty minecraft.lib
