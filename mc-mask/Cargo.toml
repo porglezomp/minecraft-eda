@@ -1,0 +1,9 @@
+[package]
+name = "mc-mask"
+version = "0.1.0"
+authors = ["C Jones <code@calebjones.net>"]
+edition = "2018"
+
+[dependencies]
+rcon = "0.1"
+regex = "1"
