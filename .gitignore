@@ -1,2 +1,4 @@
 /mc-mask/target
 minecraft.lib
+*.hex
+*.blif

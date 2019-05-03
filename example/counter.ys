@@ -5,3 +5,4 @@ dff2dffe
 abc -liberty minecraft.lib
 stat
 show counter
+write_blif counter.blif
